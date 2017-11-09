@@ -1,5 +1,6 @@
   <template>
   <div>
+  <div>
     <div class="container-fluid" style="height:auto;margin:0px;padding:0px;">
       <span style="display:none">{{checkcredentials()}}</span>
         <div class ="pattern" style="height:100px;text-align:center;  font-size:20px;bottom:2px -moz-box-orient: vertical;vertical-align: bottom;">
