@@ -20,14 +20,7 @@
            </datepicker>
            <p id="enddateerror_ct"  style= "display:none;color:#ff5722;">Kindly choose the end date </p>
            <p id= "startenddatlesserror_ct" style= "display:none;color:#ff5722;">End date should be greater than Start date</p>
-        </div>
-           <div class="col-md-3 faciy">
-           <p>Select Facility:</p>
-           <select id="facility_ct" @focus="checkrequired('facility_ct','facilityerror_ct')"  style="width:100%;" v-model="newfacility_ct">
-           <option  v-for="facility in facilityContent_ct"  v-bind:value="facility.facilityId">{{facility.facilityName}}
-           </option>
-           </select>
-           <div>
+       </div>
            <p id="facilityerror_ct" style="display:none; color:#ff5722;">Kindly select the facility</p>
            </div>
            </div> 
